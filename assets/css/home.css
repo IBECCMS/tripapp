@@ -1,0 +1,206 @@
+.main{
+
+ 
+  position: relative;
+
+  min-height: 80vh;
+  z-index: 1;
+  
+
+}
+.main::after {
+
+    content: "";
+    background: url('https://image3.mouthshut.com/images/Restaurant/Photo/-38505_8035.jpg') no-repeat center;
+   background-size: cover;
+
+
+
+-webkit-clip-path: polygon(0 67%, 0 0, 15% 0%, 85% 0%, 100% 0, 100% 15%, 100% 67%, 73% 81%, 73% 92%, 27% 92%, 27% 82%); clip-path: polygon(0 67%, 0 0, 15% 0%, 85% 0%, 100% 0, 100% 15%, 100% 67%, 73% 81%, 73% 92%, 27% 92%, 27% 82%);
+
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+      -webkit-filter: brightness(0.6);
+    filter: brightness(0.6);
+
+}
+
+.main .card-ele{
+    position: relative;
+    top:-80px;
+    bottom: 0;
+    margin-bottom: -60px;
+}
+.main h1{
+    font-weight:800;
+    font-size:48px;
+   
+    
+}
+.overlay{
+  position: absolute;
+
+  width: 100%;
+  height: 100%;
+  top: 0;
+  transform: scale(1.3);
+  opacity: 0;
+  transition: transform .4s ease 0s;
+}
+
+
+
+.zoom-img{
+  border-radius: var(--bs-border-radius) !important;
+  overflow: hidden;
+   
+}
+.zoom-img img{
+  border-radius: var(--bs-border-radius) !important;
+  object-fit: cover;
+  
+}
+.zoom-img:hover img{
+  border-radius: var(--bs-border-radius) !important;
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+.about .card:hover{
+
+
+ filter: contrast(200%);
+ filter: grayscale(100%);
+
+  
+
+}
+.about .card:hover .about .card:hover img{
+    -ms-transform: scale(1.15); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+   transition: transform .8s ease;
+}
+.about .card:hover .card-title ,.about .card:hover .card-text{
+ color:white
+}
+@media screen and (min-width: 972px) {
+  #form{
+  
+         position: relative;
+         top:100px;
+}
+.g-map{
+  
+
+
+-webkit-clip-path: polygon(0 81%, 0 0, 15% 0%, 85% 0%, 100% 0, 100% 15%, 99% 82%, 72% 98%, 73% 100%, 26% 100%, 25% 99%); 
+clip-path: polygon(0 81%, 0 0, 15% 0%, 85% 0%, 100% 0, 100% 15%, 99% 82%, 72% 98%, 73% 100%, 26% 100%, 25% 99%);
+
+
+
+}
+
+  
+}
+
+.features h1{
+    color: rgb(1, 41, 112);
+    font-weight: 700;
+}
+.features h5{
+     font-size: 18px;
+    font-weight: 700;
+    color: rgb(1, 41, 112);
+}
+.features i{
+    font-size: 12px;
+    font-weight: 1000;
+    background-color: rgb(236, 243, 255);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 4px;
+}
+.features i:hover{
+    background-color: rgb(102, 16, 242);
+    color: white;
+}
+.feature-box{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.feature1 h2{
+    font-size: 38px;
+    font-weight: 700;
+    color: rgb(1, 41, 112);
+}
+.feature1 h6{
+    padding-top: 20px;
+    font-size: 22px;
+    color: rgb(7, 213, 192);
+    font-weight: 600;
+}
+.feature1 .card .price .value{
+    font-size: 32px;
+    font-weight: 700;
+}
+.feature1 .card .price sup{
+    font-size: 18px;
+    font-weight: 700;
+}
+.feature1 .card ul{
+    list-style: none;
+    line-height: 2rem;
+    font-size: "Open Sans", sans-serif;
+}
+.feature1 .plan2{
+    padding-top: 20px;
+    font-size: 22px;
+    color: rgb(101, 198, 0);
+    font-weight: 600;
+}
+.feature1 .plan3{
+    padding-top: 20px;
+    font-size: 22px;
+    color: rgb(255, 144, 28);
+    font-weight: 600;
+}
+.feature1 .plan4{
+    padding-top: 20px;
+    font-size: 22px;
+    color: rgb(255, 0, 113);
+    font-weight: 600;
+}
+.feature1 .card{
+    border: none;
+    border-radius: 4px;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 30px 20px rgb(1 41 112 / 8%) !important;
+    position: relative;
+    overflow: hidden;
+
+}
+.feature1 .card:hover{
+    box-shadow: 0px 0px 30px 30px rgb(1 41 112 / 8%) !important;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+.feature1 .Featured{
+    background-color: rgb(65, 84, 241);
+    color: white;
+    width: 200px;
+    position: absolute;
+    top: 18px;
+    right: -68px;
+    transform: rotate(45deg);
+    z-index: 1;
+    font-size: 14px;
+    padding: 1px 0 3px 0;
+}

@@ -1,0 +1,7 @@
+:root{
+    --fonts-family: 'Mukta', 'Lato', sans-serif;
+    --box-shadow: 0px 0px 30px 20px rgb(1 41 112 / 8%) !important;
+    --primary-color:#40A44C;
+    --bg-primary:#40A44C !important;
+    --bg-secondary:#F7B811 !important;
+}
