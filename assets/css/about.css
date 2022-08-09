@@ -1,6 +1,6 @@
 .about-main{
       position: relative;
-background: url('../image/about.jpg') no-repeat center;
+background: url('../image/hero.jpg') no-repeat center;
    background-size: cover;
   min-height: 30vh;
   z-index: 1;
