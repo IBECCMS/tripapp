@@ -35,6 +35,12 @@
     bottom: 0;
     margin-bottom: -60px;
 }
+.modal .card-ele{
+    position: relative;
+    top:-50px;
+    bottom: 0;
+    margin-bottom: -50px;
+}
 .main h1{
     font-weight:800;
     font-size:48px;
