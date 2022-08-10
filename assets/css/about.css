@@ -4,4 +4,6 @@ background: url('https://image3.mouthshut.com/images/Restaurant/Photo/-38505_803
    background-size: cover;
   min-height: 30vh;
   z-index: 1;
+   -webkit-filter: brightness(0.6);
+    filter: brightness(0.6);
 }
