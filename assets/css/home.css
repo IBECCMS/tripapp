@@ -108,6 +108,13 @@ height: 75vh;
 .d-none {
   display: block !important;
 }
+ #form{
+  
+         position: relative;
+         top:120px;
+         margin-bottom: 120px;
+        
+}
     
 }
 
