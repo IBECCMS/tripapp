@@ -103,6 +103,13 @@ height: 75vh;
   
 }
 @media screen and (max-width:972px){
+    .main img{
+    
+height: 85vh;
+
+      
+}
+
         .main h1{
     font-weight:800;
     font-size:38px;
