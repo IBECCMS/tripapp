@@ -5,13 +5,20 @@ position: relative;
 top: 80px;
 margin-bottom: -80px;
 }
-.main img{
-       -webkit-filter: brightness(0.6);
+
+.carousel-inner {
+     height: 75vh;
+}
+
+.carousel img {
+      -webkit-filter: brightness(0.6);
     filter: brightness(0.6);
  object-fit: cover;
-height: 75vh;
 
-      
+
+  min-width: 100vw;
+  height: 100vh;
+  max-width: none;
 }
 
 
@@ -30,7 +37,7 @@ height: 75vh;
 
 .carousel-caption {
   position: absolute;
- top:42%
+ top:32%
 
 }
 .overlay{
