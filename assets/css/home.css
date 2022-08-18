@@ -118,7 +118,8 @@ margin-bottom: -80px;
 
     .carousel-caption {
   position: absolute;
- top:20.5%
+ top:15%;
+
 
 }
     .carousel{
@@ -137,7 +138,6 @@ object-fit: contain;
 
         .main h1{
     font-weight:800;
-    font-size:32px;
    
     
 }
